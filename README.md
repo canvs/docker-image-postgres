@@ -4,7 +4,7 @@
 ### step1
 - install docker and docker-compose
 - edit `.env` file
-## step2
+### step2
 ```bash
 #start
 docker-compose up -d
