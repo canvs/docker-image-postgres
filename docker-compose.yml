@@ -31,6 +31,6 @@ services:
     links:
       - postgres
     volumes:
-      - ~/.n8n:/root/.n8n
+      - ~/.n8n:/root/.n8n #映射容器n8n到服务器root的n8n中
     command: /bin/sh -c "sleep 5; n8n start"
     
